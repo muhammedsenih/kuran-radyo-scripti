@@ -1,0 +1,36 @@
+{
+  "name": "Genel Kur'an Radyosu",
+  "short_name": "Kur'an Radyo",
+  "description": "7/24 Kesintisiz Canlı Kur'an-ı Kerim Radyosu & Tilavet Portalı",
+  "start_url": "./index.php",
+  "id": "kuran_radyo_pwa_v3",
+  "display": "standalone",
+  "background_color": "#0F2C23",
+  "theme_color": "#0F2C23",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "categories": ["music", "lifestyle", "education"],
+  "icons": [
+    {
+      "src": "assets/images/logo.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/logo.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Canlı Radyoyu Başlat",
+      "short_name": "Radyo Çal",
+      "description": "Canlı Kur'an yayını başlat",
+      "url": "./index.php?action=play",
+      "icons": [{ "src": "assets/images/logo.webp", "sizes": "192x192", "type": "image/webp" }]
+    }
+  ]
+}
