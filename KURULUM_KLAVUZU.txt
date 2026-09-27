@@ -1,0 +1,47 @@
+===================================================================
+  CANLI KUR'AN-I KERİM RADYOSU & TİLAVET PORTALI KURULUM KILAVUZU
+===================================================================
+
+📂 Adım 1: Dosyaları Sunucuya Yükleme 
+
+Arşivin içinde ki kuran-radyo klasörü içerisindeki tüm dosyaları cPanel / Hosting panelinize girip Dosya Yöneticisi (File Manager) alanına yükleyin.
+
+🔓 Adım 2: Hosting Panelinde data/ İzni Verme
+Çoğu hostingde sistem bu izni otomatik verir. Ancak hata alırsanız 5 saniyede şöyle izin verebilirsiniz:
+
+🔹 cPanel Kullanıyorsanız:
+cPanel Dosya Yöneticisi (File Manager)'a girin.
+data klasörünün üzerine sağ tıklayıp "Change Permissions" (İzinleri Değiştir) seçin.
+Açılan küçük penceredeki sayısal kutuya 775 veya 777 yazıp "Change Permissions" butonuna basın.
+
+🔹 DirectAdmin Kullanıyorsanız:
+DirectAdmin Dosya Yöneticisi (File Manager)'a girin.
+data klasörünün sağındaki kutucuğu işaretleyin.
+Üst menüden "Set Permissions" (İzin Ayarla) deyip 777 yapın.
+
+🔹 FileZilla (FTP) Kullanıyorsanız:
+FileZilla ile sitenize bağlanın.
+data klasörüne sağ tıklayıp "Dosya İzinleri..." (File Permissions) seçeneğine tıklayın.
+Sayısal Değer kutusuna 777 yazıp "Alt dizinlere de uygula" kutusunu işaretleyip Tamam'a basın.
+
+🔹VDS/VPS Sunucusu Kullanıyorsanız:
+Bu 2 komutu çalıştırın:
+chown -R www-data:www-data /var/www/kuran-radyo/data
+chmod -R 775 /var/www/kuran-radyo/data
+
+🔐 Adım 3: Yönetim Paneline İlk Giriş & Şifre Değiştirme
+
+Tarayıcınızdan yönetim paneline bağlanın:
+👉 https://siteniz.com/admin/login.php
+Varsayılan Giriş Bilgileri:
+Kullanıcı Adı: admin
+Şifre: admin123
+Paneller menüsünden "Güvenlik" sekmesine girin.
+Mevcut Şifreniz: admin123 yazın, Yeni Şifrenizi belirleyip kaydet butonuna basın.
+----------------------------------------------------------------------------------------
+📋Not:Bu script %100 açık kaynaklıdır. 
+Scripti istediğiniz gibi sitelerinizde ücretsiz 
+kullanabilir, kodlarını dilediğiniz gibi geliştirebilir, özelleştirebilir 
+ve başkalarıyla paylaşabilirsiniz.
+
+Hayırlı kullanımlar dileriz.
