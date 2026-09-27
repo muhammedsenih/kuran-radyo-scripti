@@ -71,7 +71,7 @@ Terminalinizde (SSH) şu 2 komutu çalıştırın:
 ```bash
 chown -R www-data:www-data /var/www/kuran-radyo/data
 chmod -R 775 /var/www/kuran-radyo/data
-
+```
 ---
 
 ### 🔐 Adım 3: Yönetim Paneline İlk Giriş & Şifre Değiştirme
