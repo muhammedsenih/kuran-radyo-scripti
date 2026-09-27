@@ -9,8 +9,24 @@
 
 ---
 
+### 🌐 CANLI DEMO & ÖRNEK SİTE
+- 🔗 **Canlı Önizleme:** [https://kurandinle.akasasozluk.com/](https://kurandinle.akasasozluk.com/)
+- 🔐 **Demo Yönetim Paneli:** [https://kurandinle.akasasozluk.com/admin/index.php](https://kurandinle.akasasozluk.com/admin/index.php)
+  - **Kullanıcı Adı:** `demo`
+  - **Şifre:** `123456`
+
+---
+
 ### 📦 DOĞRUDAN İNDİR
 👉 **[kuran-radyo-script.zip (Doğrudan İndir)](https://github.com/user-attachments/files/32700672/kuran-radyo-script.zip)**
+
+---
+
+### 📸 EKRAN GÖRÜNTÜLERİ
+
+| Masaüstü Görünümü | Mobil Görünüm |
+| :---: | :---: |
+| ![Masaüstü Görünümü](<img width="1440" height="2034" alt="ekran-goruntusu" src="https://github.com/user-attachments/assets/6b64bbc6-1382-4f5a-ad6a-ceae85d4c19a" />) | ![Mobil Görünümü](<img width="1170" height="2532" alt="ekran-goruntusu (1)" src="https://github.com/user-attachments/assets/084b1fe7-74f4-455d-b540-eb7fa1ddff78" />) |
 
 ---
 
