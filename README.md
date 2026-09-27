@@ -71,3 +71,23 @@ Terminalinizde (SSH) şu 2 komutu çalıştırın:
 ```bash
 chown -R www-data:www-data /var/www/kuran-radyo/data
 chmod -R 775 /var/www/kuran-radyo/data
+
+---
+
+### 🔐 Adım 3: Yönetim Paneline İlk Giriş & Şifre Değiştirme
+
+1. Tarayıcınızdan yönetim paneline bağlanın:  
+   👉 https://siteniz.com/admin/login.php
+2. Varsayılan Giriş Bilgileri:
+   - Kullanıcı Adı: admin
+   - Şifre: admin123
+3. Paneller menüsünden "Güvenlik" sekmesine girin.
+4. Mevcut Şifreniz: admin123 yazın, Yeni Şifrenizi belirleyip kaydet butonuna basın.
+
+---
+
+### 📋 ÖZGÜR LİSANS VE KULLANIM NOTU
+
+Bu script %100 açık kaynaklıdır. Scripti istediğiniz gibi sitelerinizde ücretsiz kullanabilir, kodlarını dilediğiniz gibi geliştirebilir, özelleştirebilir ve başkalarıyla paylaşabilirsiniz.
+
+Hayırlı kullanımlar dileriz. 🤲
