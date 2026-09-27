@@ -26,7 +26,7 @@
 
 | Masaüstü Görünümü | Mobil Görünüm |
 | :---: | :---: |
-| ![Masaüstü Görünümü](<img width="1440" height="2034" alt="ekran-goruntusu" src="https://github.com/user-attachments/assets/6b64bbc6-1382-4f5a-ad6a-ceae85d4c19a" />) | ![Mobil Görünümü](<img width="1170" height="2532" alt="ekran-goruntusu (1)" src="https://github.com/user-attachments/assets/084b1fe7-74f4-455d-b540-eb7fa1ddff78" />) |
+| ![Masaüstü Görünümü](https://github.com/user-attachments/assets/6b64bbc6-1382-4f5a-ad6a-ceae85d4c19a) | ![Mobil Görünüm](https://github.com/user-attachments/assets/084b1fe7-74f4-455d-b540-eb7fa1ddff78) |
 
 ---
 
